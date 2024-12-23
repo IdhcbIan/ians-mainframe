@@ -7,6 +7,7 @@ import P2 from './Legos/P2';
 import Post1 from './Legos/Posts/Post1';
 import Post2 from './Legos/Posts/Post2';
 import Post3 from './Legos/Posts/Post3';
+import Post4 from './Legos/Posts/Post4';
 import BlogHome from './Legos/Blog';
 
 const ScrollToTop = () => {
@@ -32,6 +33,7 @@ const Router = () => {
         <Route path="/blog/post1" element={<Post1 />} />
         <Route path="/blog/post2" element={<Post2 />} />
         <Route path="/blog/post3" element={<Post3 />} />
+        <Route path="/blog/post4" element={<Post4 />} />
       </Routes>
     </BrowserRouter>
   );

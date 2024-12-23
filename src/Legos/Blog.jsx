@@ -114,7 +114,8 @@ function BlogHome() {
     posts: [
       { title: "Object at the End of Time", route: "/blog/post1" },
       { title: "Purpose and Presence", route: "/blog/post2" },
-      { title: "Can you still see the human?", route: "/blog/post3" }
+      { title: "Can you still see the human?", route: "/blog/post3" },
+      { title: "The Way in All Things", route: "/blog/post4" }
     ],
     backToHome: "Back to Home"
   };
