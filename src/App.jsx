@@ -6,6 +6,7 @@ import twitterLogo from './assets/twitter.png'
 import githubLogo from './assets/github.png'
 import styled, { createGlobalStyle } from 'styled-components'
 import { Link } from 'react-router-dom'
+import DoublePendulum from './cool/pendulum.jsx'
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -333,6 +334,7 @@ function App() {
         </Section>
       </ContentContainer>
       <EmailLink href="mailto:idhcb.ian@usp.br">{content[language].emailMe}</EmailLink>
+      <DoublePendulum />
     </>
   )
 }
